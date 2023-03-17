@@ -3,7 +3,7 @@ module "eks" {
   source  = "terraform-aws-modules/eks/aws"
   version = "19.10.0"
 
-  cluster_name                   = "altschoolapp-cluster"
+  cluster_name                   = "altschoolapp-eks-cluster"
   cluster_version                = "1.24"
   cluster_endpoint_public_access = true
 
